@@ -62,7 +62,7 @@ def main():
             f"*첨부:five: - <https://static.wixstatic.com/media/50072f_db56f7e4de6a4f3a9941f4b2b0d55c6a~mv2.png|셔틀（퇴근）출발 시간 안내>*\n\n"
             f"\n"
             f"*자세한 자료는 :point_up: :point_up: 클릭하여 확인 부탁드립니다!*\n\n"
-            f"*문의사항 : 인사총무팀 총무/시설 담당자*\n\n"
+            f"*문의사항 : FC운영표준화_통합RP_평택 담당자*\n\n"
             f"감사합니다.\n"
         )
  
