@@ -47,7 +47,7 @@ def send_slack_message(message, channel):
 def main():
     for cluster in clusters:
         # 메시지 제목 설정
-        header = f":loudspeaker: *『인사총무팀 공지』* <!channel>\n\n"
+        header = f":loudspeaker: *『셔틀관련 공지』* <!channel>\n\n"
 
         notice_msg = (
             f"안녕하세요? 평택 클러스터 구성원 여러분\n*평택 클러스터 출/퇴근 셔틀 이용 관련 안내사항 Remind* 공유 드립니다.\n"
@@ -55,8 +55,8 @@ def main():
             f"\n"
             f":체크1: *셔틀 관련 채널은 <#C05PK6K7XRN|14_셔틀버스_평택> 이용 바랍니다.*\n\n"
             f"\n"
-            f"*첨부:one: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_37f984123550437c891ffc9584c7331b.xlsx|셔틀 노선도>*\n"
-            f"*첨부:two: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_2cc38d99f6d145e4a725d4c699fda07e.pptx|셔틀 노선 및 경유지 상세 이미지 포함>*\n"
+            f"*첨부:one: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_d440c7570a964d76b43b9c128e8d0567.xlsx|셔틀 노선도>*\n"
+            f"*첨부:two: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_f90974bf38df4c9aabf4582059dc1b54.pptx|셔틀 노선 및 경유지 상세 이미지 포함>*\n"
             f"*첨부:three: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_4138997ae0db4d3fa5789cab2c718ded.pdf|셔틀 승,하차 장소>*\n"
             f"*첨부:four: - <https://50072f98-e1d6-4b35-b1e5-5564ad1fcebf.usrfiles.com/ugd/50072f_b72245b692984e838e89f72711e2aea8.pdf|셔틀 어플 사용 안내>*\n"
             f"*첨부:five: - <https://static.wixstatic.com/media/50072f_db56f7e4de6a4f3a9941f4b2b0d55c6a~mv2.png|셔틀（퇴근）출발 시간 안내>*\n\n"
