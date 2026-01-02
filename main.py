@@ -50,7 +50,7 @@ def main():
         header = f"*[공지｜클러스터 셔틀버스 안내]*\n\n\n"
 
         notice_msg = (
-            f"1. *중요도* : \n"
+            f"1. *중요도* : 상\n"
             f"2. *대상* : 평택 클러스터 임직원 전체\n"
             f"3. *주요 내용*\n\n"
             f"\n"
@@ -60,8 +60,8 @@ def main():
             f"\n"
             f":체크1: *셔틀 관련 채널은 <#C05PK6K7XRN|14_셔틀버스_평택> 이용 바랍니다.*\n\n"
             f"\n"
-            f"< *:one:- <https://kurlyptrc.notion.site/199905920f5180aa9c7efbbc9fd76803|셔틀 노선도>*\n"
-            f"< *:two:- <https://kurlyptrc.notion.site/199905920f5180aa9c7efbbc9fd76803|셔틀 어플 사용 및 탑승 장소 안내>*\n\n"
+            f"*<https://kurlyptrc.notion.site/199905920f5180aa9c7efbbc9fd76803|셔틀 노선도>*\n"
+            f"*<https://kurlyptrc.notion.site/199905920f5180aa9c7efbbc9fd76803|셔틀 어플 사용 및 탑승 장소 안내>*\n\n"
             f"\n"
             f"\n"
             f"*:slack: 문의사항 : FC운영표준화_통합RP_채용2 담당자*\n\n"
